@@ -87,12 +87,12 @@ on:
         description: 'Plugin JSON, e.g. {"shadowsocks":"n","xray":"n"}'
         required: true
         type: string
-        default: '{"shadowsocks":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","smartdns":"n","vlmcsd":"y","ttyd":"n","iperf3":"n"}'
+        default: '{"shadowsocks":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","smartdns":"n","vlmcsd":"n","ttyd":"n","iperf3":"n"}'
       customization:
         description: 'Customization JSON'
         required: true
         type: string
-        default: '{"lanip":"192.168.123.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"YuanDian","wifi2gpsk":"13988891075","wifi5gssid":"YuanDian-5G","wifi5gpsk":"13988891075"}'
+        default: '{"lanip":"192.168.1.123","signaccount":"admin","signpassword":"Play.674100.top","wifi2gssid":"sq","wifi2gpsk":"sq13988893805","wifi5gssid":"sq","wifi5gpsk":"sq13988893805"}'
       nanoversion:
         description: "Build Nano Version"
         type: boolean
